@@ -74,8 +74,8 @@ public class GuestbookRepositoryTests {
 
     }
 
-    @Test
-    public void testQuery2() {
+    /*  @Test
+        public void testQuery2() {
 
         Pageable pageable = PageRequest.of(0, 10, Sort.by("gno").descending());
 
@@ -101,6 +101,6 @@ public class GuestbookRepositoryTests {
             System.out.println(guestbook);
         });
 
-    }
+    }*/
 
 }
